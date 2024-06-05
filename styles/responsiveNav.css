@@ -11,7 +11,34 @@ nav {
 }
 
 .menu-icon {
+    display: none;
     font-size: 25px;
     color: white;
+    cursor: pointer;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
     
 }
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .menu-icon {
+        display: block;
+}
+    .nav-links {
+        display: none;
+    }
