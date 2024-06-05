@@ -3,7 +3,7 @@ function toggleMenu () {
     if (navLinks.style.display === 'flex') {
         navLinks.style.display = 'none';
     } else {
-        navLinks.style.display === 'flex';
+        navLinks.style.display = 'flex';
             navLinks.style.flexDirection = 'column';    
     }
 }
